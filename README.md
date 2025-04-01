@@ -2,6 +2,6 @@
 
 ## Widgets
 
-### Intrinsic Height
+### TickerMode
 
-[Slides](https://widget_of_the_meetup.impaktfull.com/slides/intrinsic_height)
+[Slides](https://widget_of_the_meetup.impaktfull.com/slides/ticker-mode)
