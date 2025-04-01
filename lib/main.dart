@@ -18,6 +18,7 @@ class ImpaktfullSlidesApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ImpaktfullUiApp(
+      showDebugFlag: false,
       title: 'Widget of the Meetup',
       navigatorKey: MainNavigator.instance.navigatorKey,
       onGenerateRoute: MainNavigator.instance.onGenerateRoute,
