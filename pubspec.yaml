@@ -1,0 +1,51 @@
+name: impaktfull_talk_slides_widget_of_the_meetup
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_navigation_generator_annotations: ^2.1.0
+  impaktfull_slides:
+    git:
+      url: git@github.com:impaktfull/impaktfull_slides.git
+      ref: "dcb34a2"
+
+dev_dependencies:
+  build_runner: ^2.4.11
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_navigation_generator: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: packages/impaktfull_slides/fonts/ubuntu/ubuntu_light.ttf
+          weight: 300
+        - asset: packages/impaktfull_slides/fonts/ubuntu/ubuntu_regular.ttf
+        - asset: packages/impaktfull_slides/fonts/ubuntu/ubuntu_medium.ttf
+          weight: 500
+        - asset: packages/impaktfull_slides/fonts/ubuntu/ubuntu_medium.ttf
+          weight: 600
+        - asset: packages/impaktfull_slides/fonts/ubuntu/ubuntu_bold.ttf
+          weight: 700
+    - family: Geologica
+      fonts:
+        - asset: packages/impaktfull_slides/fonts/geologica/geologica_light.ttf
+          weight: 300
+        - asset: packages/impaktfull_slides/fonts/geologica/geologica_regular.ttf
+        - asset: packages/impaktfull_slides/fonts/geologica/geologica_medium.ttf
+          weight: 500
+        - asset: packages/impaktfull_slides/fonts/geologica/geologica_semibold.ttf
+          weight: 600
+        - asset: packages/impaktfull_slides/fonts/geologica/geologica_bold.ttf
+          weight: 700
