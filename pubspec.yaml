@@ -13,7 +13,7 @@ dependencies:
   impaktfull_slides:
     git:
       url: git@github.com:impaktfull/impaktfull_slides.git
-      ref: "ee36965"
+      ref: "8f3369b"
 
 dev_dependencies:
   build_runner: ^2.4.11

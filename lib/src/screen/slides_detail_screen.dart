@@ -29,7 +29,19 @@ class SlidesDetailScreen extends StatelessWidget {
     }
     return ImpaktfullSlidesDeck(
       title: 'Widget of the Meetup',
+      theme: ImpaktfullSlidesTheme.lightTheme(),
+      // theme: ImpaktfullSlidesTheme.darkTheme(),
       slides: (context, theme) => [
+        const ImpaktfullImagesSlide(
+          asset: ImpaktfullUiAsset.pixel(
+            'assets/images/widget_of_the_week.png',
+          ),
+        ),
+        const ImpaktfullImagesSlide(
+          asset: ImpaktfullUiAsset.pixel(
+            'assets/images/widget_of_the_meetup.jpg',
+          ),
+        ),
         ImpaktfullTitleSlide(
           title: 'Widget of the Meetup',
           titleHighlight: 'Meetup',

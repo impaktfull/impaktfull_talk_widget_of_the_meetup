@@ -553,8 +553,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: ee36965
-      resolved-ref: ee36965d13afba6a9b28b0b832d06330eb22d394
+      ref: "8f3369b"
+      resolved-ref: "8f3369b3a854bb94994a279c6cb6ced0cd975015"
       url: "git@github.com:impaktfull/impaktfull_slides.git"
     source: git
     version: "0.0.1"
