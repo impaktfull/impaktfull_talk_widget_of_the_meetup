@@ -8,4 +8,4 @@ This repository contains the slides for the Widget of the Meetup presented by im
 
 ### TickerMode
 
-[Slides](https://widget_of_the_meetup.impaktfull.com/slides/ticker-mode)
+[Slides](https://assets.impaktfull.com/open_source/examples/widget_of_the_meetup)
